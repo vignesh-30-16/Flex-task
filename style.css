@@ -1,0 +1,125 @@
+
+
+body{
+    margin: 0;
+    /* width: 100%; */
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap; 
+   /* margin-left: 10px; */
+   width:100%;
+   
+   
+  
+}
+.card{
+    width: 29%;
+    box-shadow: 1px 1px 6px;
+    margin: 10px;
+    /* width: 30%; */
+    padding: 10px;
+    
+    
+    
+    
+}
+
+.card-header img{
+    width:100%;
+    
+    
+   
+}
+
+.tag {
+border-radius: 15px;
+background-color: pink;
+color: white;
+padding: 5px;
+
+}
+.card-body span{
+    padding: 4px;
+    /* margin-top: 10px; */
+   
+}
+.card-body{
+    /* width: 350px; */
+    height: 100%;
+    padding:20px;
+    margin-top: 20px;
+
+    /* margin-left: 5px; */
+    
+}
+.card-body h4,p{
+    margin-top: 25px;
+}
+
+.user img{
+    border-radius: 50%;
+   
+    height: 50px;
+   
+   
+   
+   
+}
+/* .user-info h5{
+    margin-left: 50px;
+} */
+.user{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.user-info h5{
+    margin: 0;
+}
+.social-icons{
+    /* color: black; */
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    
+}
+.fa{
+ color: black;
+ 
+}
+button{
+   width: 100%;
+   display: flex;
+   color: white;
+   background-color: black;
+   font-size: large;
+   justify-content: center;
+   padding : 10px;
+   margin-top: 10px;
+   
+}
+.tag-purple {
+    background-color: purple;
+}
+
+
+@media (max-width:1024px) {
+    .card{
+       width: 44%;
+
+     }
+     
+ } 
+ @media (max-width:767px) {
+    .card{
+       width: 100%;
+     }
+     
+ } 
+/* @media (min-width:1024px){
+    .card{
+        width:3%;
+    }
+} */
